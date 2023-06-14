@@ -1,0 +1,62 @@
+steps:
+  test_NODE-ab651ae7-abaf-4bc0-8fd8-bf7a86f5c1fc:
+    operation:
+      config:
+        button: false
+        dropdown: option 1
+        insertStrategy: INSERT
+        myColumnDropdown: null
+        myTabularConfig:
+          items:
+            - tabDropdown: null
+              tabTextbox: null
+              tabToggleButton: false
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: false
+        textbox: ""
+        truncateBefore: false
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: WORK
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: b1869dcd-b217-4ea5-9116-96206cb60db9
+              stepCounter: ab651ae7-abaf-4bc0-8fd8-bf7a86f5c1fc
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            name: Test_NODE-SYSTEM_COLUMN_1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            systemColumn1: true
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies: []
+            join:
+              joinCondition: ""
+            name: test_NODE
+            noLinkRefs: []
+      name: test_NODE
+      overrideSQL: false
+      schema: ""
+      sqlType: "2"
+      type: sql
+    stepCounter: ab651ae7-abaf-4bc0-8fd8-bf7a86f5c1fc
